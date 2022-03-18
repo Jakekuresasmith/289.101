@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 body {
     font-family: Quicksand;
+    margin: 0;
 }
 
 
@@ -8,11 +9,28 @@ body {
     background-color: 
         #67bb99;
         text-align: center;
-        color: #ffffff
-        padding:10px;
+        color: #ffffff;
+        padding: 30px;
+        margin-bottom: 20px;
+        border-bottom: 3px;
+        dashed: #000;
+        font-weight: 700;
+        word-spacing: 20px;
 }
 
 #header {
+    text-align: center;
+    
+}
+
+#description, #date {
+    width: 300px;
+    url("img/illustration.gif"),
+    url("img/texture.jpg");
+    height: 
+}
+
+#logo {
     
 }
 
