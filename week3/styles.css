@@ -1,0 +1,12 @@
+.red{
+color: red;
+}
+
+#headerbar {
+    border: 5px solid #080080
+    height: 100px;
+    width: 500px;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center  
+}
