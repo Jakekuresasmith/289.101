@@ -30,6 +30,7 @@ body {
 #header {
    text-align: center;
     margin-top: 40px;
+    height: 600px;
     
 }
 
@@ -59,16 +60,23 @@ padding: 15px 30px;
 
 
 #what {
+    text-align: center;
+    word-spacing: normal;
+    background-color: 
+    padding-top: 10px;
     
     
 }
 
 #sponsor_logos {
+    max-width: 300px;
+    width: 70%;
+    text-align: center;
     
 }
 
 #why {
-    
+    text-align: center
 }
 
 #where {
@@ -80,5 +88,9 @@ padding: 15px 30px;
 }
 
 #who {
+    
+}
+
+#footer{
     
 }
