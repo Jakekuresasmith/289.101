@@ -14,6 +14,8 @@ body {
     background-size: 800px, auto;
     font-family: 'Quicksand', sans- serif;
     margin: 0;
+    text-align: center;
+    
 }
 
 
@@ -60,35 +62,37 @@ padding: 15px 30px;
 
 
 #what {
+    background-color: rgba(190,300,210,.8) ;
+  color: cadetblue;
     text-align: center;
-    word-spacing: normal;
-    background-color: 
-    padding-top: 10px;
-    
-    
+    height: 500px;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0px 600px 10px;
 }
 
 #sponsor_logos {
     max-width: 300px;
-    width: 70%;
-    text-align: center;
-    
+    width: 100%;
+    max-height: 300px;
 }
 
 #why {
-    text-align: center
+    text-align: center;
+    font-weight: bold;
+    color: cadetblue;
 }
 
 #where {
-    
+    text-align: center;
 }
 
 #when {
-    
+    text-align: center;
 }
 
 #who {
-    
+    text-align: center;
 }
 
 #footer{
