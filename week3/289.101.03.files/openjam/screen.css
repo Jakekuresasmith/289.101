@@ -68,13 +68,15 @@ padding: 15px 30px;
     height: 500px;
     font-weight: bold;
     font-size: 1.2em;
-    padding: 0px 600px 10px;
+    padding: 10px 620px 10px;
+    margin-top: 2.1em;
 }
 
 #sponsor_logos {
     max-width: 300px;
     width: 100%;
-    max-height: 300px;
+    max-height: 100px;
+   
 }
 
 #why {
