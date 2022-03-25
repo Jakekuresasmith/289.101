@@ -4,7 +4,7 @@ a wildcard selector for outlining all of your elements
 you may find this handy for visualising divs
 remove it when you are done, or if you don't want it
 */
-{ outline: red 1px solid; }
+* { outline: red 1px solid; }
 
 body {
     background-color: #82DDB5;
@@ -68,21 +68,21 @@ padding: 15px 30px;
     height: 500px;
     font-weight: bold;
     font-size: 1.2em;
-    padding: 10px 620px 10px;
+    padding: 10px 620px 70px;
     margin-top: 2.1em;
     margin-bottom: 2.1em;
 }
 
 #sponsor_logos {
-    max-width: 300px;
+    max-width:300px;
     width: 100%;
     max-height: 100px;
-    
-   
+    margin-right: 0;
+    margin-left: auto;
 }
 
 #why {
-    text-align: center;
+    text-align: start;
     font-weight: bold;
     color: cadetblue;
     margin-left: auto;
@@ -92,20 +92,48 @@ padding: 15px 30px;
     margin-top: 2.1em;
 }
 
-}
 
 #where {
     text-align: center;
+    background-image: url(img/map.gif);
+    background-size: cover;
+    
 }
 
 #when {
     text-align: center;
+    color:aliceblue;
+    border: dashed white;
+    background-image: url(img/wires.png);
+    background-size: 500px 500px;
+    background-color: cadetblue
 }
 
 #who {
     text-align: center;
+    background-color: white;
+    color: cadetblue;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px 620px 70px;
+    margin-top: 2.1em;
+    margin-bottom: 2.1em;
 }
 
 #footer{
-    
+    background-image: url(img/icon-twitter.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-height: 100%;
+    max-width: 100%;
+    max-height: 100px;
+    background-position: center;
+
+    background-image: url(img/icon-facebook.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-height: 100%;
+    max-width: 100%;
+    max-height: 100px;
+    background-position: left;
 }
